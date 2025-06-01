@@ -1,16 +1,31 @@
-## Hi there 👋
+# 👋 Hey, I'm inksec.io
 
-<!--
-**inkedqt/inkedqt** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+🎯 I'm a cybersecurity student documenting my journey through **CTF challenges**, primarily on [Hack The Box](https://www.hackthebox.com/) and other platforms.
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🧠 What I'm Working On
+
+- 🔐 Learning Linux privilege escalation
+- 📡 Practicing real-world attack paths
+- 🛠 Building a portfolio of writeups [here](https://github.com/inkedqt/ctf-writeups)
+
+---
+
+## 🚩 Featured Writeups
+
+- 🧪 [HTB: Chemistry](https://github.com/inkedqt/ctf-writeups/tree/main/HTB/chemistry)
+
+---
+
+## 🧰 Tools & Skills
+
+`Linux` `Nmap` `Burp Suite` `Python` `Reverse Shells` `Post-Exploitation` `LFI` `SQLi`
+
+---
+
+## 📫 Let's Connect
+
+Feel free to reach out if you’re into security, CTFs, or just want to talk tech.
+
+
