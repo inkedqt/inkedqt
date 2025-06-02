@@ -14,6 +14,12 @@
 
 ## 🚩 Featured Writeups
 
+
+- 🏰 [HTB: Administrator](https://github.com/inkedqt/ctf-writeups/tree/main/HTB/Administrator)  
+  Full Active Directory domain takeover via WinRM foothold → ACL abuse → password spraying → Kerberoast → DCSync → Administrator hash  
+- 🧠 [HTB: Headless](https://github.com/inkedqt/ctf-writeups/tree/main/HTB/headless)  
+  Blind XSS in User-Agent header → Cookie theft → Command injection → Root via sudo script path hijack
+
 - 🧪 [HTB: Chemistry](https://github.com/inkedqt/ctf-writeups/tree/main/HTB/chemistry)  
   Remote file parsing → RCE via pymatgen, local file inclusion, and SSH key abuse
 
