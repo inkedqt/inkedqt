@@ -20,13 +20,13 @@
 - 🛎️ [HTB: Alert](https://github.com/inkedqt/ctf-writeups/tree/main/HTB/alert)  
   Advanced Markdown XSS → Base64 exfil → LFI → Group permission privesc
 
-- 🧱 [HTB: Lame](https://github.com/inkedqt/ctf-writeups/tree/main/HTB/lame)  
+- 🧱 [HTB: Lame](https://github.com/inkedqt/ctf-writeups/tree/main/HTB/Lame)  
   Classic Linux box exploited via Samba usermap script (Metasploit)
 
-- 💙 [HTB: Blue](https://github.com/inkedqt/ctf-writeups/tree/main/HTB/blue)  
+- 💙 [HTB: Blue](https://github.com/inkedqt/ctf-writeups/tree/main/HTB/Blue)  
   EternalBlue exploit (MS17-010) on Windows 7, gaining full SYSTEM access
 
-- ⚙️ [HTB: Optimum](https://github.com/inkedqt/ctf-writeups/tree/main/HTB/optimum)  
+- ⚙️ [HTB: Optimum](https://github.com/inkedqt/ctf-writeups/tree/main/HTB/Optimum)  
   Rejetto HFS exploit + WinPEAS + local exploit suggester for SYSTEM shell
 
 ---
@@ -44,4 +44,3 @@
 ## 📫 Let's Connect
 
 Feel free to reach out if you’re into security, CTFs, or just want to talk tech.
-
