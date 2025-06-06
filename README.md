@@ -1,6 +1,6 @@
 # 👋 Hey, I'm InkedQT
 
-🎯 I'm a cybersecurity student documenting my journey through **CTF challenges**, primarily on [Hack The Box](https://www.hackthebox.com/) and other platforms.
+🎯 I'm a cybersecurity student at Victoria University documenting my journey through **CTF challenges**, primarily on [Hack The Box](https://www.hackthebox.com/) and other platforms.
 
 ---
 
@@ -38,6 +38,8 @@
 - ⚙️ [HTB: Optimum](https://github.com/inkedqt/ctf-writeups/tree/main/HTB/Optimum)  
   Rejetto HFS exploit + WinPEAS + local exploit suggester for SYSTEM shell
 
+- 🎓 [HTB Starting Point - Tier 0](https://github.com/inkedqt/ctf-writeups/tree/main/HTB/StartingPoint/Tier0)  
+  Meow • Fawn • Dancing • Redeemer • Explosion • Preignition • Mongod • Synced — foundational service enumeration, web fuzzing, password cracking & DB abuse.
 ---
 
 ## 🧰 Tools & Skills
@@ -52,5 +54,5 @@
 
 ## 📫 Let's Connect
 
-Feel free to reach out if you’re into security, CTFs, or just want to talk tech.
+Feel free to reach out if you’re into security, CTFs, or want to give me my first cyber security job!
 
