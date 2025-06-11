@@ -55,34 +55,45 @@ I want to document my learning progression and maintain a reference of commands 
 
 ### TombWatcher (Active Seasonal Box)
 
-🗂️ [/HTB/Active/Tombwatcher/README.md](https://github.com/inkedqt/ctf-active/tree/main/HTB/Active/Tombwalker)  
+- 🗂️ [/HTB/Active/Tombwatcher/README.md](https://github.com/inkedqt/ctf-active/tree/main/HTB/Active/Tombwalker)  
 📝 Windows AD box — gMSA abuse → ACL pivot → Deleted object restore → CVE-2024-49019 → Domain Admin  
 
 Fluffy (Active Seasonal Box)  
-🗂️ [/HTB/Active/Fluffy/README_Fluffy_AD_Domain_Takeover.md](https://github.com/inkedqt/ctf-active/tree/main/HTB/Active/Fluffy)  
+- 🗂️ [/HTB/Active/Fluffy/README.md](https://github.com/inkedqt/ctf-active/tree/main/HTB/Active/Fluffy)  
 📝 Windows AD box — NTLMv2 crack → Shadow Credentials abuse → ADCS certificate template enumeration → Certificate template abuse (ESC1) → Pass-the-Cert + Pass-the-Hash → Domain Admin  
+
+Puppy (Seasonal Box)
+- 🚀 [/HTB/Active/Puppy/README.md](https://github.com/inkedqt/ctf-active/tree/main/HTB/Active/Puppy)  
+Medium Windows AD box — LDAP enumeration → SMB share access via group membership abuse → KeePass database password cracking → Password reset on disabled user → DPAPI credential extraction → Secretsdump for NTDS.dit extraction → Administrator NT hash → Evil-WinRM → U User + Root obtained  
 
 ---
 
 ## 🧰 Tools & Skills
 
-### 🕵️ Discovery & Enumeration  
+### 🕵️ Discovery & Enumeration
 `Nmap` `ffuf` `Gobuster` `Telnet` `FTP` `Redis` `MongoDB` `Rsync` `LDAP Enumeration` `BloodHound` `Responder`  
 `SMB Enumeration` `SMB Relay` `SSH Enumeration` `SMB to WinRM flow` `LFI` `ffuf DNS bruteforce`  
-`sqlite3 enumeration` `docker-compose parsing` `Flask app source review` `Kerberos Ticket Analysis` `Certificate Authority Enumeration`
+`sqlite3 enumeration` `docker-compose parsing` `Flask app source review` `Kerberos Ticket Analysis` `Certificate Authority Enumeration`  
+`rpcclient` `smbmap` `ldapsearch` `BloodHound-python` `LDAP enumeration and modification` `ntpdate (time sync for Kerberos)`  
+`Kerberos ticket extraction via secretsdump` `KeePass4Brute` `KeePass database analysis`
 
-### ⚔️ Exploitation  
+### ⚔️ Exploitation
 `SQL Injection` `Markdown XSS` `Base64 Exfiltration` `Reverse Shells` `File Upload Exploitation`  
 `Credential Reuse` `Privilege Escalation` `Group Permission Abuse` `SUID Binaries` `CVE Hunting`  
 `JWT Cracking` `XXE Injection` `Advanced LFI` `PBKDF2-SHA256 cracking (mode 10900)`  
 `ImageMagick identify LD_PRELOAD abuse` `LD_PRELOAD bypass via .so hijack` `Systemd service discovery`  
-`Shadow Credentials Abuse` `ADCS Certificate Template Abuse (ESC1/ESC13)` `Pass-the-Cert` `Pass-the-Hash` `Kerberos Ticket Caching & Reuse`
+`Shadow Credentials Abuse` `ADCS Certificate Template Abuse (ESC1/ESC13)` `Pass-the-Cert` `Pass-the-Hash`  
+`Kerberos Ticket Caching & Reuse` `LDAP userAccountControl modification (enabling disabled accounts)`  
+`Password spraying with credential lists` `Group membership abuse (bloodyAD)` `Impacket Secretsdump for NTDS.DIT extraction`  
+`DPAPI masterkey and credential blob extraction` `Password recovery from KeePass DB` `Evil-WinRM with NT hash login`
 
-### 🛠️ Post-Exploitation & Tools  
+### 🛠️ Post-Exploitation & Tools
 `Burp Suite` `Python` `PHP` `SQLite` `Metasploit` `WinPEAS` `Local Exploit Suggester`  
 `SMB Hash Cracking` `Password Cracking` `Zip Cracking` `EternalBlue` `Rejetto HFS`  
 `gitea2hashcat` `Gitea DB extraction` `sqlite3` `getcap` `setcap` `gcc -fPIC -shared`  
-`LD_PRELOAD` `Systemd .service analysis` `Certipy` `BloodyAD` `Evil-WinRM` `Impacket-Secretsdump`
+`LD_PRELOAD` `Systemd .service analysis` `Certipy` `BloodyAD` `Evil-WinRM` `Impacket-Secretsdump`  
+`Impacket-smbserver` `Impacket-DPAPI tools` `KeePassXC GUI` `ldapmodify` `BloodHound-python` `bloodyAD` `evil-winrm`
+
 
 
 ---
