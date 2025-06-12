@@ -37,6 +37,12 @@ I want to document my learning progression and maintain a reference of commands 
 - ⚙️ [HTB: Optimum](https://github.com/inkedqt/ctf-writeups/tree/main/HTB/Retired/Optimum)  
   Rejetto HFS exploit + WinPEAS + local exploit suggester for SYSTEM shell
 
+- 🧪 [HTB: Bashed](https://github.com/inkedqt/ctf-writeups/tree/main/HTB/Retired/Bashed)  
+  Web fuzzing → PHPbash webshell → User enumeration → Sudo to scriptmanager → Privileged script abuse → Reverse shell as root
+
+- 🔊 [HTB: Beep](https://github.com/inkedqt/ctf-writeups/tree/main/HTB/Retired/Beep)  
+  LFI in vtigerCRM → /etc/amportal.conf credential loot → Legacy SSH algorithms → Root via reused password
+
 - 🌐 [PortSwigger: Server-Side Vulnerabilities](https://github.com/inkedqt/ctf-writeups/tree/main/Other/PortSwigger-Labs/ServerSideVulns)  
   Path Traversal • Access Control • IDOR • Auth bypass • SSRF • File Upload RCE • Command Injection • SQLi — common web vulns & practical exploitation.
 
@@ -49,22 +55,32 @@ I want to document my learning progression and maintain a reference of commands 
 - 🎓 [HTB Starting Point - Tier 2](https://github.com/inkedqt/ctf-writeups/tree/main/HTB/StartingPoint/Tier2)  
   Archetype • Oopsie • Vaccine • Unified • Included • Markup • Base — SMB enumeration, file upload exploitation, JWT cracking, XXE injection, LFI, SUID privesc, advanced web enumeration & post-exploitation.
 
-## Active Boxes
-- 🚢 [HTB: Titanic (Active, Private Repo)](https://github.com/inkedqt/ctf-active/tree/main/HTB/Active/Titanic)  
+## Active Boxes  
+🔒 Writeups for active boxes are kept in a private repo to comply with HTB rules — they’ll be made public once the boxes are retired and spoilers are permitted.
+
+- 🚢 [HTB: Titanic, (Private Repo)](https://github.com/inkedqt/ctf-active/tree/main/HTB/Active/Titanic)  
   LFI on ticket download → SQLite DB dump → Gitea password hash crack → SSH as developer → ImageMagick identify RCE via cron → LD_PRELOAD SUID bypass → Root shell
 
-### TombWatcher (Active Seasonal Box)
+- 🧠 [HTB: Planning, (Private Repo)](https://github.com/inkedqt/ctf-active/tree/main/HTB/Active/Planning)  
+  Subdomain brute force → Grafana RCE → Docker breakout → SSH credential reuse → Crontab UI abuse → Root shell via SUID bash
 
-- 🗂️ [/HTB/Active/Tombwatcher/README.md](https://github.com/inkedqt/ctf-active/tree/main/HTB/Active/Tombwalker)  
+### (Active Seasonal Boxes)
+Tomewalker (Seasonal Box)
+- 🗂️ [/HTB/Active/Tombwatcher/README.md (Private Repo)](https://github.com/inkedqt/ctf-active/tree/main/HTB/Active/Tombwalker)  
 📝 Windows AD box — gMSA abuse → ACL pivot → Deleted object restore → CVE-2024-49019 → Domain Admin  
 
 Fluffy (Active Seasonal Box)  
-- 🗂️ [/HTB/Active/Fluffy/README.md](https://github.com/inkedqt/ctf-active/tree/main/HTB/Active/Fluffy)  
+- 🗂️ [/HTB/Active/Fluffy/README.md (Private Repo)](https://github.com/inkedqt/ctf-active/tree/main/HTB/Active/Fluffy)  
 📝 Windows AD box — NTLMv2 crack → Shadow Credentials abuse → ADCS certificate template enumeration → Certificate template abuse (ESC1) → Pass-the-Cert + Pass-the-Hash → Domain Admin  
 
 Puppy (Seasonal Box)
-- 🚀 [/HTB/Active/Puppy/README.md](https://github.com/inkedqt/ctf-active/tree/main/HTB/Active/Puppy)  
+- 🚀 [/HTB/Active/Puppy/README.md (Private Repo)](https://github.com/inkedqt/ctf-active/tree/main/HTB/Active/Puppy)  
 Medium Windows AD box — LDAP enumeration → SMB share access via group membership abuse → KeePass database password cracking → Password reset on disabled user → DPAPI credential extraction → Secretsdump for NTDS.dit extraction → Administrator NT hash → Evil-WinRM → U User + Root obtained  
+
+Certificate (Seasonal box)
+- 🔐 [/HTB/Active/Certificate/README.md (Private Repo)](https://github.com/inkedqt/ctf-writeups/tree/main/HTB/Active/Certificate)  
+  LDAP enumeration → BloodHound → Certificate template abuse → Certipy cert forging → Evil-WinRM Administrator shell → Root flag  
+
 
 ---
 
@@ -85,14 +101,14 @@ Medium Windows AD box — LDAP enumeration → SMB share access via group member
 `Shadow Credentials Abuse` `ADCS Certificate Template Abuse (ESC1/ESC13)` `Pass-the-Cert` `Pass-the-Hash`  
 `Kerberos Ticket Caching & Reuse` `LDAP userAccountControl modification (enabling disabled accounts)`  
 `Password spraying with credential lists` `Group membership abuse (bloodyAD)` `Impacket Secretsdump for NTDS.DIT extraction`  
-`DPAPI masterkey and credential blob extraction` `Password recovery from KeePass DB` `Evil-WinRM with NT hash login`
+`DPAPI masterkey and credential blob extraction` `Password recovery from KeePass DB` `Evil-WinRM with NT hash login` `Docker Container Breakout Techniques` `Web-based Crontab UI Abuse`
 
 ### 🛠️ Post-Exploitation & Tools
 `Burp Suite` `Python` `PHP` `SQLite` `Metasploit` `WinPEAS` `Local Exploit Suggester`  
 `SMB Hash Cracking` `Password Cracking` `Zip Cracking` `EternalBlue` `Rejetto HFS`  
 `gitea2hashcat` `Gitea DB extraction` `sqlite3` `getcap` `setcap` `gcc -fPIC -shared`  
 `LD_PRELOAD` `Systemd .service analysis` `Certipy` `BloodyAD` `Evil-WinRM` `Impacket-Secretsdump`  
-`Impacket-smbserver` `Impacket-DPAPI tools` `KeePassXC GUI` `ldapmodify` `BloodHound-python` `bloodyAD` `evil-winrm`
+`Impacket-smbserver` `Impacket-DPAPI tools` `KeePassXC GUI` `ldapmodify` `BloodHound-python` `bloodyAD` `evil-winrm` `Environment Variable Enumeration in Containers`
 
 
 
