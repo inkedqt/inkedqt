@@ -64,6 +64,12 @@ I want to document my learning progression and maintain a reference of commands 
 - 🧠 [HTB: Planning, (Private Repo)](https://github.com/inkedqt/ctf-active/tree/main/HTB/Active/Planning)  
   Subdomain brute force → Grafana RCE → Docker breakout → SSH credential reuse → Crontab UI abuse → Root shell via SUID bash
 
+- 🐾 [/HTB/Active/Dog/README.md (Private Repo)](https://github.com/inkedqt/ctf-writeups/tree/main/HTB/Active/Dog)  
+  Git repo dump → Backdrop CMS login → CVE-2022-42092 RCE → SSH pivot via reused credentials → Privesc via bee PHP utility
+
+- 💻 [HTB: Code](https://github.com/inkedqt/ctf-writeups/tree/main/HTB/Active/Code)  
+  Python Code Editor SQLi → MD5 hash crack → SSH user → Path traversal via backy.sh → Full `/root` tar extraction → SSH private key → Root
+  
 ### (Active Seasonal Boxes)
 Tomewalker (Seasonal Box)
 - 🗂️ [/HTB/Active/Tombwatcher/README.md (Private Repo)](https://github.com/inkedqt/ctf-active/tree/main/HTB/Active/Tombwalker)  
@@ -81,7 +87,6 @@ Certificate (Seasonal box)
 - 🔐 [/HTB/Active/Certificate/README.md (Private Repo)](https://github.com/inkedqt/ctf-writeups/tree/main/HTB/Active/Certificate)  
   LDAP enumeration → BloodHound → Certificate template abuse → Certipy cert forging → Evil-WinRM Administrator shell → Root flag  
 
-
 ---
 
 ## 🧰 Tools & Skills
@@ -92,6 +97,7 @@ Certificate (Seasonal box)
 `sqlite3 enumeration` `docker-compose parsing` `Flask app source review` `Kerberos Ticket Analysis` `Certificate Authority Enumeration`  
 `rpcclient` `smbmap` `ldapsearch` `BloodHound-python` `LDAP enumeration and modification` `ntpdate (time sync for Kerberos)`  
 `Kerberos ticket extraction via secretsdump` `KeePass4Brute` `KeePass database analysis`
+`Git Repository Dumping (.git/ enumeration)`
 
 ### ⚔️ Exploitation
 `SQL Injection` `Markdown XSS` `Base64 Exfiltration` `Reverse Shells` `File Upload Exploitation`  
@@ -101,14 +107,14 @@ Certificate (Seasonal box)
 `Shadow Credentials Abuse` `ADCS Certificate Template Abuse (ESC1/ESC13)` `Pass-the-Cert` `Pass-the-Hash`  
 `Kerberos Ticket Caching & Reuse` `LDAP userAccountControl modification (enabling disabled accounts)`  
 `Password spraying with credential lists` `Group membership abuse (bloodyAD)` `Impacket Secretsdump for NTDS.DIT extraction`  
-`DPAPI masterkey and credential blob extraction` `Password recovery from KeePass DB` `Evil-WinRM with NT hash login` `Docker Container Breakout Techniques` `Web-based Crontab UI Abuse`
+`DPAPI masterkey and credential blob extraction` `Password recovery from KeePass DB` `Evil-WinRM with NT hash login` `Docker Container Breakout Techniques` `Web-based Crontab UI Abuse` `Backdrop CMS Exploitation` `CVE-2022-42092 RCE Exploitation`
 
 ### 🛠️ Post-Exploitation & Tools
 `Burp Suite` `Python` `PHP` `SQLite` `Metasploit` `WinPEAS` `Local Exploit Suggester`  
 `SMB Hash Cracking` `Password Cracking` `Zip Cracking` `EternalBlue` `Rejetto HFS`  
 `gitea2hashcat` `Gitea DB extraction` `sqlite3` `getcap` `setcap` `gcc -fPIC -shared`  
 `LD_PRELOAD` `Systemd .service analysis` `Certipy` `BloodyAD` `Evil-WinRM` `Impacket-Secretsdump`  
-`Impacket-smbserver` `Impacket-DPAPI tools` `KeePassXC GUI` `ldapmodify` `BloodHound-python` `bloodyAD` `evil-winrm` `Environment Variable Enumeration in Containers`
+`Impacket-smbserver` `Impacket-DPAPI tools` `KeePassXC GUI` `ldapmodify` `BloodHound-python` `bloodyAD` `evil-winrm` `Environment Variable Enumeration in Containers` `pipx for clean Python tool management` `Privilege Escalation via Custom PHP Utilities (bee)`
 
 
 
