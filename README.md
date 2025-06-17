@@ -1,8 +1,11 @@
 # 🛡️ Cyber Security Portfolio
 
-Hi, I'm **Tate Pannam**, a cyber security student at Victoria University in Melbourne, Australia. This repository documents my progression through a wide range of Hack The Box (HTB) challenges, including **retired**, **active**, and **seasonal** boxes.
+Hi, I'm **Tate Pannam**, a cyber security student at Victoria University in Melbourne, Australia. This repository documents my journey through a variety of Hack The Box (HTB) challenges, including **retired**, **active**, and **seasonal** machines.
 
-Each machine listed includes a proof image, a direct link to my full writeup, and a brief summary. This structure helps showcase my skills and serves as a reference for future engagements.
+While I’ve completed a few retired boxes to reinforce foundational concepts and showcase progression, my primary focus has been on **seasonal** and **active** machines. These boxes present a greater challenge due to the lack of public writeups and require a deeper level of enumeration, exploitation, and problem-solving — making them far more valuable for real-world skill development.
+
+Each machine listed includes a proof image, a direct link to my full writeup, and a concise summary to highlight the core techniques used.
+
 
 ---
 
@@ -24,7 +27,7 @@ Each machine listed includes a proof image, a direct link to my full writeup, an
 
 ---
 
-## 🔓 Active HTB Machines
+## 🔒 Active HTB Machines this section is 🔒 private until the box retires. 🔒
 
 | Machine     | Difficulty | Status  | Proof                                                  | Writeup                                                                                             | Summary                                                        |
 |-------------|------------|---------|---------------------------------------------------------|-----------------------------------------------------------------------------------------------------|----------------------------------------------------------------|
@@ -37,7 +40,7 @@ Each machine listed includes a proof image, a direct link to my full writeup, an
 
 ---
 
-## 🗓️ Seasonal Boxes
+## 🗓️ Seasonal Boxes this section is 🔒 private until the box retires. 🔒
 
 | Machine       | Difficulty | Status  | Proof                                                  | Writeup                                                                                             | Summary                                                              |
 |---------------|------------|---------|---------------------------------------------------------|-----------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
